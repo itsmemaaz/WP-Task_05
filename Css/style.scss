@@ -1,0 +1,40 @@
+*{
+    font-family: Agbalumo;
+}
+.home-content{
+  .home-text{
+    h2{
+        padding: 20px;
+    }
+    p{
+        padding: 20px;
+    }
+   } 
+}
+
+.container{
+    .row{
+        img{
+           width: 600px;
+            height: 300px;
+        }
+    }
+}
+ @media only screen and (max-width: 720px) {    
+     .container{
+        .row{
+             img{
+               margin: 10px;
+            }
+        }
+     }
+ }
+ @media only screen and (max-width: 720px){
+    .container-fluid{
+        .row{
+            .card{
+                margin: 10px;
+            }
+        }
+    }
+ }

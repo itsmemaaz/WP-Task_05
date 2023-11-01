@@ -1,0 +1,25 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.home-content .home-text h2 {
+  padding: 25px;
+}
+.home-content .home-text p {
+  padding: 20px;
+}
+
+.container .row img {
+  width: 600px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 720px) {
+  .container .row img {
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container-fluid .row .card {
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
